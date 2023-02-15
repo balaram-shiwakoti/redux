@@ -37,3 +37,30 @@
     transform: translateY(0px);
   }
 }
+.cart-wrapper {
+  height: 100px;
+  width: 500px;
+  margin-left: 10%;
+  border: 1px solid #ccc;
+}
+.img-wrapper img {
+  width: 100px;
+  /* margin-top: -10px; */
+}
+.add-to-cart img {
+  width: 100px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+.btn-wrapper button {
+  background-color: red;
+  border: 0;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+}
+.item {
+  float: left;
+  width: 120px;
+}
